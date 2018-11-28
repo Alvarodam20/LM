@@ -46,7 +46,16 @@
     Al igual que en el método anterior, se recomienda no utilizarse salvo casos muy específicos, ya que se pierde la independencia de la presentación y contenido.
 ```
 - Crea una lista sin ordenar con 5 ingredientes de una receta de cocina
-
+```html
+<h2>Receta para hacer macarrones con tomate</h2>
+<ul>
+    <li>Una olla con aprox. 1 l. de agua</li>
+    <li>Aceite</li>
+    <li>Tomate frito</li>
+    <li>Medio kilo de macarrones</li>
+    <li>Una pizca de oregano</li>
+</ul>
+```
 - Como se puede incluir javascript en HTML
 
 - ¿Que diferencia hay entre una clase y una ID
