@@ -20,6 +20,22 @@
     
     De esta forma, los navegadores sabrán que deben aplicar los estilos de este archivo (index.css) al documento HTML actual.
 
+    2.CSS interno
+    Otra de las formas que existen para incluir estilos en un documento HTML es la de añadirlos directamente en la cabecera HTML del documento:
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Título de la página</title>
+    <style type="text/css">
+        div {
+            background:#FFFFFF;
+        }
+    </style>
+</head>
+...
+    Este sistema puede servir en algunos casos, pero hay que tener en cuenta que utilizándolo, arruinamos la ventaja de tener los estilos en un documento independiente
+    
 - Crea una lista sin ordenar con 5 ingredientes de una receta de cocina
 
 - Como se puede incluir javascript en HTML
