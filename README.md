@@ -1,5 +1,6 @@
 # LM
 - Estructura mínima de una web
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,6 +11,7 @@
     
 </body>
 </html>
+```
 - Explica las 3 formas de usar CSS en HTML
     1.CSS externo:
     En la cabecera del HTML, el bloque <head></head>, incluimos una relación al archivo CSS en cuestión:
