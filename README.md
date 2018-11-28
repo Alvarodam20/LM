@@ -114,6 +114,7 @@ Para forzar la apertura de un enlace en una ventana nueva, basta añadirle el at
 
 ```
 - ¿Qué son las pseudoclases?, pon ejemplos.
+
 Una pseudoclase CSS es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado. Por ejemplo, :hover aplicará un estilo cuando el usuario haga hover sobre el elemento especificado por el selector.
 ```html
 div:hover {
@@ -122,17 +123,29 @@ div:hover {
 ```
 
 Algunos ejemplos:
+
 :active
+
 :checked
+
 :default
+
 :dir()
+
 :disabled
+
 :empty
+
 :enabled
+
 :first
+
 :first-child
+
 :first-of-type
+
 :fullscreen
+
 :focus
 
 - Explica el modelo de caja de CSS (margin, border y padding)
