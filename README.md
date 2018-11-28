@@ -14,14 +14,14 @@
 ```
 - Explica las 3 formas de usar CSS en HTML
 ```html
-    1.CSS externo:
+- 1.CSS externo:
     En la cabecera del HTML, el bloque <head></head>, incluimos una relación al archivo CSS en cuestión:
 
 <link rel="stylesheet" type="text/css" href="index.css"/>
     
     De esta forma, los navegadores sabrán que deben aplicar los estilos de este archivo (index.css) al documento HTML actual.
 
-    2.CSS interno:
+- 2.CSS interno:
     Otra de las formas que existen para incluir estilos en un documento HTML es la de añadirlos directamente en la cabecera HTML del documento:
 
     <!DOCTYPE html>
@@ -38,7 +38,7 @@
 
     Este sistema puede servir en algunos casos, pero hay que tener en cuenta que utilizándolo, arruinamos la ventaja de tener los estilos en un documento independiente
 
-    3.CSS embebido:
+- 3.CSS embebido:
     Por último, la tercera forma de aplicar estilos en un documento HTML es hacerlo directamente en las propias etiquetas, a través del atributo style:
 
     <p>¡Hola <span style="color:#FF0000">amigo lector</span>!</p>
