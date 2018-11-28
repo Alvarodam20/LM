@@ -162,6 +162,16 @@ Las partes que componen cada caja y su orden de visualización desde el punto de
 
 - Explica que son los selectores de CSS y pon ejemplos
 
+Los selectores son patrones que se usan para seleccionar elementos a los que se quiere instertar un estilo.
+```
+* -> * -> Selecciona todos los elementos
+
+elemento -> p -> Selecciona todos los elementos <p>
+    
+elemento,elemento -> div, p -> Selecciona todos los elementos <div> y todos los elementos <p>
+    
+elemento elemento -> div p -> Selects all <p> elements inside <div> elements
+```
 - Di a quien afectan:
 
     p a { color: red;
