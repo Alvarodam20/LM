@@ -13,6 +13,7 @@
 </html>
 ```
 - Explica las 3 formas de usar CSS en HTML
+```html
     1.CSS externo:
     En la cabecera del HTML, el bloque <head></head>, incluimos una relación al archivo CSS en cuestión:
 
@@ -34,8 +35,10 @@
     </style>
 </head>
 ...
+
     Este sistema puede servir en algunos casos, pero hay que tener en cuenta que utilizándolo, arruinamos la ventaja de tener los estilos en un documento independiente
     
+```
 - Crea una lista sin ordenar con 5 ingredientes de una receta de cocina
 
 - Como se puede incluir javascript en HTML
