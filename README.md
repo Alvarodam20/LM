@@ -57,7 +57,24 @@
 </ul>
 ```
 - Como se puede incluir javascript en HTML
-
+```html
+El código JavaScript se encierra entre etiquetas "script" y se incluye en cualquier parte del documento. Aunque es correcto incluir cualquier bloque de código en cualquier zona de la página,se recomienda definir el código JavaScript dentro de la cabecera del documento (dentro de la etiqueta <head>):
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Ejemplo de código JavaScript en el propio documento</title>
+<script type="text/javascript">
+  alert("Un mensaje de prueba");
+</script>
+</head>
+ 
+<body>
+<p>Un párrafo de texto.</p>
+</body>
+</html>
+Para que la página XHTML resultante sea válida, es necesario añadir el atributo type a la etiqueta "script". Los valores que se incluyen en el atributo type están estandarizados y para el caso de JavaScript, el valor correcto es text/javascript.
+```
 - ¿Que diferencia hay entre una clase y una ID
 
 - Código para hacer un enlace a otra página y que esta se abra en una nueva ventana
