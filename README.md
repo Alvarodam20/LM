@@ -108,12 +108,70 @@ Para que la página XHTML resultante sea válida, es necesario añadir el atribu
 ```
 - Código para hacer un enlace a otra página y que esta se abra en una nueva ventana
 
+Para forzar la apertura de un enlace en una ventana nueva, basta añadirle el atributo HTML target con valor _blank de esta manera: 
+```html
+<a href="pagina.html" target="_blank">Título del enlace</a>.
+
+```
 - ¿Qué son las pseudoclases?, pon ejemplos.
 
+Una pseudoclase CSS es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado. Por ejemplo, :hover aplicará un estilo cuando el usuario haga hover sobre el elemento especificado por el selector.
+```html
+div:hover {
+  background-color: #F89B4D;
+}
+```
+
+Algunos ejemplos:
+
+:active
+
+:checked
+
+:default
+
+:dir()
+
+:disabled
+
+:empty
+
+:enabled
+
+:first
+
+:first-child
+
+:first-of-type
+
+:fullscreen
+
+:focus
+
 - Explica el modelo de caja de CSS (margin, border y padding)
+Las partes que componen cada caja y su orden de visualización desde el punto de vista del usuario son las siguientes:
+
+   - Contenido (content): se trata del contenido HTML del elemento (las palabras de un párrafo, una imagen, el texto de una lista               de elementos, etc.)
+   - Relleno (padding): espacio libre opcional existente entre el contenido y el borde.
+   - Borde (border): línea que encierra completamente el contenido y su relleno.
+   - Imagen de fondo (background image): imagen que se muestra por detrás del contenido y el espacio de relleno.
+   - Color de fondo (background color): color que se muestra por detrás del contenido y el espacio de relleno.
+   - Margen (margin): separación opcional existente entre la caja y el resto de cajas adyacentes.
+   ![](https://www.laurachuburu.com.ar/images/tutoriales/css/modelo-de-caja.png)
+
 
 - Explica que son los selectores de CSS y pon ejemplos
 
+Los selectores son patrones que se usan para seleccionar elementos a los que se quiere instertar un estilo.
+```
+* -> * -> Selecciona todos los elementos
+
+elemento -> p -> Selecciona todos los elementos <p>
+    
+elemento,elemento -> div, p -> Selecciona todos los elementos <div> y todos los elementos <p>
+    
+elemento elemento -> div p -> Selects all <p> elements inside <div> elements
+```
 - Di a quien afectan:
 
     p a { color: red;
