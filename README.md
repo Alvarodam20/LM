@@ -1,4 +1,4 @@
-# Electron y JavaScript
+# Electron
 <p align="center">
 <img src="https://cdn-images-1.medium.com/max/777/1*4C-4FcUcG46kUToxULHtnA.png" width ="50%">
 </p>
