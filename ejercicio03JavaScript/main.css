@@ -1,0 +1,53 @@
+.body{
+    background-color: rgb(83, 132, 204);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex_container{
+    color: black;
+    display: flex;
+    flex: content;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container{
+    flex-direction: column;
+}
+.item{
+    display: flex;
+    font-size: 2em;
+    padding: 50px;
+    justify-content: center;
+}
+.item1 {
+    font-size: 2em;
+    padding: 40px;
+    border-radius: 20px;
+}
+.item2 {
+    font-size: 2em;
+    padding: 40px;
+    border-radius: 20px;
+}
+#header{
+    background-color: rgb(100, 170, 228);
+    border-radius: 20px;
+    text-align: center;
+
+}
+#precio{
+    width: 55px;
+    
+}
+#boton{
+    
+    font-size: 55px;
+    border-radius: 20px;
+    background-color: rgb(100, 170, 228);
+    cursor: pointer;
+    
+}
+
+#resultado{
+    width: 55px;
+}
+
